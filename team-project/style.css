@@ -1,0 +1,33 @@
+/* 全体の背景と文字 */
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  margin: 50px;
+}
+
+/* 見出しのスタイル */
+h1 {
+  color: #2c3e50;
+}
+
+/* ナビゲーションのスタイル */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2980b9;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
